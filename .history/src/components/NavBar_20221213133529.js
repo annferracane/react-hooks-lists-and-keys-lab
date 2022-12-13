@@ -3,11 +3,13 @@ import React from "react";
 function NavBar() {
   const links = ["home", "about", "projects"];
   const linkArray = links.map(link => 
-    <a href={"#" + link} key={link}>{link}</a>
+    <a href={"#" + link}>{link}</a>
   )
 
   return (
-    <nav>{linkArray}</nav>
+    <nav>
+
+    </nav>
   );
 }
 
